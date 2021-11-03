@@ -31,12 +31,6 @@ const AccountNavigation = () => {
           >
             Rewards
           </NavLink>
-          <li>Dashboard</li>
-          <li>Account</li>
-          <li>Rewards</li>
-          <li>Dashboard</li>
-          <li>Account</li>
-          <li>Rewards</li>
         </ul>
       </nav>
     </div>
