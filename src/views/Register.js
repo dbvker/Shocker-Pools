@@ -33,12 +33,26 @@ const Register = () => {
             />
             <p>
               <input type="checkbox" className="auth-form-checkbox" /> I agree
-              to the <u><Link to="">Terms & Conditions</Link></u>
+              to the 
+              <u>
+                <Link to="">Terms & Conditions</Link>
+              </u>
             </p>
             <p>
               <input type="checkbox" className="auth-form-checkbox" /> I want to
               receive Shocker Pools newsletter
             </p>
+            <Link to="/dashboard/">
+              <button>Join Shocker Pools</button>
+            </Link>
+            <h3>
+              Already a member?{" "}
+              <span>
+                <Link to="/sign-in/">Sign in</Link>
+              </span>
+            <Link to="/account/"><button>Join Shocker Pools</button></Link>
+            <h3>
+              Already a member? <span><Link to="/sign-in/">Sign in</Link></span>
             <Link to="/account/"><button>Join Shocker Pools</button></Link>
             <h3>
               Already a member? <span><Link to="/sign-in/">Sign in</Link></span>

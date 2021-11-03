@@ -12,11 +12,13 @@ import Footer from "./components/footer/Footer";
 // Views
 import Account from "./views/Account";
 import Chemicals from "./views/Chemicals";
+import Dashboard from "./views/Dashboard";
 import Furniture from "./views/Furniture";
 import Grills from "./views/Grills";
 import HotTubs from "./views/HotTubs";
 import Pools from "./views/Pools";
 import Register from "./views/Register";
+import Rewards from "./views/Rewards";
 import Services from "./views/Services";
 import SignIn from "./views/SignIn";
 
@@ -28,10 +30,12 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/account/" component={Account} />
         <Route path="/chemicals/" component={Chemicals} />
+        <Route path="/dashboard/" component={Dashboard} />
         <Route path="/furniture/" component={Furniture} />
         <Route path="/grills/" component={Grills} />
         <Route path="/hot_tubs/" component={HotTubs} />
         <Route path="/register/" component={Register} />
+        <Route path="/rewards/" component={Rewards} />
         <Route path="/pools/" component={Pools} />
         <Route path="/services/" component={Services} />
         <Route path="/sign-in/" component={SignIn} />
