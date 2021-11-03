@@ -1,9 +1,6 @@
 // React
 import React from "react";
-<<<<<<< HEAD
 import { NavLink } from "react-router-dom";
-=======
->>>>>>> 439edfc0b71c25e1759f89f2a5948fefbf42bf76
 
 // CSS
 import "./AccountNavigation.css";
@@ -13,7 +10,6 @@ const AccountNavigation = () => {
     <div className="account-nav-wrapper">
       <nav>
         <ul>
-<<<<<<< HEAD
           <NavLink
             to="/dashboard/"
             className="account-nav-link"
@@ -35,11 +31,12 @@ const AccountNavigation = () => {
           >
             Rewards
           </NavLink>
-=======
           <li>Dashboard</li>
           <li>Account</li>
           <li>Rewards</li>
->>>>>>> 439edfc0b71c25e1759f89f2a5948fefbf42bf76
+          <li>Dashboard</li>
+          <li>Account</li>
+          <li>Rewards</li>
         </ul>
       </nav>
     </div>
