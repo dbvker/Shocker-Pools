@@ -24,7 +24,7 @@ const SignIn = () => {
             <p>
               <input type="checkbox" className="auth-form-checkbox" /> Remember me next time
             </p>
-            <Link to="/account/"><button>Sign In</button></Link>
+            <Link to="/dashboard/"><button>Sign In</button></Link>
             <h3>
               New here? <span><Link to="/register/">Create an account</Link></span>
             </h3>
