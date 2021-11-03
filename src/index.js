@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //Import Components
 import Header from "./components/header/Header";
-import App from "./App";
 import Footer from "./components/footer/Footer";
 
 // Views
+import App from "./App";
 import Account from "./views/Account";
 import Chemicals from "./views/Chemicals";
 import Dashboard from "./views/Dashboard";
