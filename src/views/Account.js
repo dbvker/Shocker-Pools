@@ -4,7 +4,6 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 
 // Components
 import AccountNavigation from "../components/account/accountNavigation/AccountNavigation";
-import RewardsTile from "../components/account/rewardsTile/RewardsTile";
 
 const Account = () => {
   return (
