@@ -1,0 +1,13 @@
+.header_contact_container{
+    width: 100%;
+    background-color: #2980F1;
+    color: white;
+}
+
+.header_contact_content{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 14px;
+}

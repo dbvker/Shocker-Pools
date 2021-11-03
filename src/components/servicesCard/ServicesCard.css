@@ -1,0 +1,9 @@
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
