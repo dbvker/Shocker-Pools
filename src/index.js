@@ -4,6 +4,9 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 //Import Components
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";

@@ -39,8 +39,12 @@ h1{
   justify-content: space-between;
   align-items: flex-start;
 }
+.account-nav-content{
+  width: 20%;
+}
+
 .account-tile-content{
-  width: 68%;
+  width: 78%;
   height: auto;
 }
 
