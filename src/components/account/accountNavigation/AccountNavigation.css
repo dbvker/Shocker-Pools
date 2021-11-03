@@ -38,29 +38,3 @@
   .account-nav-link--active:last-child {
       border-left: 3px solid #2980f1;
     }
-  
-  .account-nav-wrapper{
-      width: 30%;
-      background-color: #F9F9F9;
-      border: 1px solid #cecece;
-      border-radius: 5px;
-      overflow: hidden;
-      position: sticky;
-      top: 15px;
-  }
-  
-  .account-nav-wrapper ul{
-      display: block;
-  }
-  
-  .account-nav-wrapper li{
-      display: block;
-      padding: 0.7rem 1rem;
-      border-bottom: 1px solid #cecece;
-      cursor: pointer;
-  }
-  
-  .account-nav-wrapper li:last-child{
-      border: none;
-  }
-  
