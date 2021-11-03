@@ -22,6 +22,7 @@ const SignIn = () => {
               placeholder="Password"
             />
             <p>
+<<<<<<< HEAD
               <input type="checkbox" className="auth-form-checkbox" /> Remember
               me next time
             </p>
@@ -33,6 +34,13 @@ const SignIn = () => {
               <span>
                 <Link to="/register/">Create an account</Link>
               </span>
+=======
+              <input type="checkbox" className="auth-form-checkbox" /> Remember me next time
+            </p>
+            <Link to="/account/"><button>Sign In</button></Link>
+            <h3>
+              New here? <span><Link to="/register/">Create an account</Link></span>
+>>>>>>> 439edfc0b71c25e1759f89f2a5948fefbf42bf76
             </h3>
           </form>
         </div>

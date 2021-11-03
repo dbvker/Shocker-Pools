@@ -44,11 +44,14 @@ h1{
   height: auto;
 }
 
+<<<<<<< HEAD
 .account-tile-content h2{
   padding-bottom: 1rem;
   text-align: center;
 }
 
+=======
+>>>>>>> 439edfc0b71c25e1759f89f2a5948fefbf42bf76
 /* Auth View Styling */
 .auth-container{
   width: 100%;
