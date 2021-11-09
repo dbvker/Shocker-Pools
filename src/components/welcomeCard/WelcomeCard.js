@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 //Import CSS
 import "./WelcomeCard.css";
 
-import video from "../../assets/floaty.mp4";
-
 const WelcomeCard = () => {
   return (
     <div className="welcome_wrapper">
