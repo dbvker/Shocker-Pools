@@ -29,6 +29,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Header />
+      <div className='wrapper'>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/account/" component={Account} />
@@ -43,6 +44,7 @@ ReactDOM.render(
         <Route path="/services/" component={Services} />
         <Route path="/sign-in/" component={SignIn} />
       </Switch>
+      </div>
       <Footer />
     </Router>
   </React.StrictMode>,

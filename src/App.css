@@ -2,6 +2,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, p, blockquote, table, th, td, embed, object {
 	padding: 0;
 	margin: 0; 
+  font-family: 'Roboto', sans-serif;
 }
 a {
   color: inherit;
@@ -12,11 +13,13 @@ a {
   box-sizing: border-box;
 }
 
-.App {
+.wrapper{
   width: 90%;
   max-width: 1300px;
-  margin: 0 auto;
-  padding: 0;
+  min-height: 90vh;
+  margin: 80px auto 0;
+  padding: 0rem 0;
+  background-color: white;
 }
 
 h1{
@@ -24,17 +27,9 @@ h1{
   margin: 0rem 0 1rem;
 }
 
-.wrapper{
-  width: 90%;
-  max-width: 1300px;
-  min-height: 90vh;
-  margin: 2% auto;
-  padding: 0rem 0;
-  background-color: white;
-}
-
 /* Account View Styling */
 .account-content{
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -58,7 +53,7 @@ h1{
   width: 100%;
   display: flex;
   align-items: flex-start;
-  margin-top: 4rem;
+  margin-top: 120px;
 }
 
 .auth-info{
@@ -116,4 +111,16 @@ input.auth-form-input{
 }
 .auth-form h3 span{
   color: #2980F1;
+}
+
+/* Media Queries */
+
+/* Tablet Media Query */
+@media (max-width: 1100px){
+  
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px){
+  
 }

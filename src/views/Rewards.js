@@ -8,7 +8,7 @@ import AccountNavigation from "../components/account/accountNavigation/AccountNa
 
 const Rewards = () => {
   return (
-    <div className="wrapper">
+    <>
       <div className="account-content">
         <div className="account-nav-content">
           <Breadcrumb>
@@ -21,7 +21,7 @@ const Rewards = () => {
           <h2>Rewards</h2>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <WelcomeCard />
-      <div className="App">
+
         <br />
         <br />
         <br />
@@ -34,7 +34,6 @@ const App = () => {
         <br />
         <br />
         <br />
-      </div>
     </>
   );
 };
