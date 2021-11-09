@@ -5,7 +5,7 @@ import "../App.css";
 
 const SignIn = () => {
   return (
-    <div className="wrapper">
+    <>
       <div className="auth-container">
         <div className="auth-info">Info</div>
         <div className="auth-form">
@@ -31,7 +31,7 @@ const SignIn = () => {
           </form>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

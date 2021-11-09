@@ -15,7 +15,6 @@ const Header = () => {
     return (
         <div className='header-container'>
             {/* <HeaderContact /> */}
-            <div className='account-dropdown-container'>
             <header>
                 <div className='header-left'>
                     <Link to="/">
@@ -33,14 +32,19 @@ const Header = () => {
                             <li><Link to="/grills/">Grills</Link></li>   
                         </ul>
                         <ul className='action'>
-                            <li><Link to="/register/">Account</Link></li>
-                            <li><Link to="/store/">Store: East Wichita</Link></li>
+                            <li><Link to="/register/">
+                            <span className="action-span-small">Hello, stranger</span>
+                                <span className="action-span-large">Account</span>
+                            </Link></li>
+                            {/* <li><Link to="/store/">
+                                <span className="action-span-small">Store Location</span>
+                                <span className="action-span-large">Get Directions</span>
+                            </Link></li> */}
                         </ul>
                         
                     </nav>
                 </div>
             </header>
-            </div>
         </div>
     );
 }

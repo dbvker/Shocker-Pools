@@ -5,7 +5,7 @@ import "../App.css";
 
 const Register = () => {
   return (
-    <div className="wrapper">
+    <>
       <div className="auth-container">
         <div className="auth-info">Info</div>
         <div className="auth-form">
@@ -46,7 +46,7 @@ const Register = () => {
           </form>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

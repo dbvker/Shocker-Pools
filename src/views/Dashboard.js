@@ -8,7 +8,7 @@ import RewardsTile from "../components/account/rewardsTile/RewardsTile";
 
 const Dashboard = () => {
   return (
-    <div className="wrapper">
+    <>
       <div className="account-content">
         <div className="account-nav-content">
           <Breadcrumb>
@@ -23,7 +23,7 @@ const Dashboard = () => {
           <RewardsTile />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

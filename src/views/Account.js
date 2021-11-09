@@ -7,7 +7,7 @@ import AccountNavigation from "../components/account/accountNavigation/AccountNa
 
 const Account = () => {
   return (
-    <div className="wrapper">
+    <>
       <div className="account-content">
         <div className="account-nav-content">
           <Breadcrumb>
@@ -18,10 +18,9 @@ const Account = () => {
         </div>
         <div className="account-tile-content">
           <h2>Account</h2>
-          <h3>This is where your account information will go!</h3>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
