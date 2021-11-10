@@ -6,9 +6,10 @@ import "./HeaderAlert.css";
 
 const HeaderAlert = () => {
   return (
-    <div className="header_contact_container">
-      <div className="header_contact_content">
+    <div className="header-alert-wrapper">
+      <div className="header-alert-content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae lorem sollicitudin libero, ut sed nec quisque.</p>
+        <span>X</span>
       </div>
     </div>
   );
