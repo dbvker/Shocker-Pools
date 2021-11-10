@@ -1,6 +1,6 @@
 // React
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 //CSS
 import './Header.css';
@@ -13,39 +13,28 @@ import logo from '../../assets/logo.png';
 
 const Header = () => {
     return (
-        <div className='header-container'>
-            {/* <HeaderContact /> */}
+        <section className='header-container'>
             <header>
-                <div className='header-left'>
-                    <Link to="/">
-                        <img src={logo} className='logo' alt="Shocker Pools logo" />
-                    </Link>
+                <div className='header-logo-wrapper'>
+                    <Link to='/'><img className='header-logo' src={logo} alt='shocker pools in yellow text with blue waves to the left' /></Link>
                 </div>
-                <div className='header-right'>
-                    <nav>
-                        <ul className='links'>
-                            <li><Link to="/services/">Services</Link></li>
-                            <li><Link to="/pools/">Pools</Link></li>
-                            <li><Link to="/hot_tubs/">Hot Tubs</Link></li>
-                            <li><Link to="/chemicals/">Chemicals</Link></li>
-                            <li><Link to="/furniture/">Furniture</Link></li>
-                            <li><Link to="/grills/">Grills</Link></li>   
-                        </ul>
-                        <ul className='action'>
-                            <li><Link to="/register/">
-                            <span className="action-span-small">Hello, stranger</span>
-                                <span className="action-span-large">Account</span>
-                            </Link></li>
-                            {/* <li><Link to="/store/">
-                                <span className="action-span-small">Store Location</span>
-                                <span className="action-span-large">Get Directions</span>
-                            </Link></li> */}
-                        </ul>
-                        
-                    </nav>
-                </div>
+                <nav className='header-links-wrapper'>
+                    <ul className='header-page-links'>
+                        <Link to='/services/'><li>Services</li></Link>
+                        <Link to='/pools/'><li>Pools</li></Link>
+                        <Link to='/hot-tubs/'><li>Hot Tubs</li></Link>
+                        <Link to='/chemicals/'><li>Chemicals</li></Link>
+                        <Link to='/furniture/'><li>Furniture</li></Link>
+                        <Link to='/grills/'><li>Grills</li></Link>
+                    </ul>
+                    <span className='header-spacer'></span>
+                    <ul className='header-auth-links'>
+                        <Link to='/sign-in/'><li>Log In</li></Link>
+                        <Link to='/register/'><button className='header-auth-sign-up'>Sign Up</button></Link>
+                    </ul>
+                </nav>
             </header>
-        </div>
+        </section>
     );
 }
 
