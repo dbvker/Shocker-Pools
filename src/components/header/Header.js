@@ -9,10 +9,12 @@ import './Header.css';
 import logo from '../../assets/logo.png';
 
 //Import Components
-// import HeaderContact from './headerContact/HeaderContact';
+import HeaderAlert from './headerAlert/HeaderAlert';
 
 const Header = () => {
     return (
+        <>
+        <HeaderAlert />
         <section className='header-container'>
             <header>
                 <div className='header-logo-wrapper'>
@@ -35,6 +37,7 @@ const Header = () => {
                 </nav>
             </header>
         </section>
+        </>
     );
 }
 
