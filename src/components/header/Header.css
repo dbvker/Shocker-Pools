@@ -1,6 +1,3 @@
-*{
-  transition: 350ms;
-}
 
 .header-container {
   width: 100%;
@@ -33,6 +30,11 @@ header {
 .header-links-wrapper {
   display: flex;
   align-items: center;
+}
+
+.header-links-wrapper a:hover{
+  color: #418ef3;
+  transition: 100ms;
 }
 
 .header-links-wrapper ul {

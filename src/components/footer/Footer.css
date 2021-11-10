@@ -1,11 +1,67 @@
-.footer_container {
-    width: 100%;
-    display: flex;
-    position: relative;
-    padding: 20px;
-    margin-top: 20px;
-    background-color: #cfcfcf;
-    text-align: left;
-    font-size: 13px;
-    justify-content: center;
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Newsletter Section Styles */
+.newsletter-wrapper {
+  width: 100%;
+  background: rgba(27, 23, 33, 0.8);
+  padding: 50px 0;
+}
+
+.newsletter-content {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-content p {
+  font-size: 20px;
+  color: white;
+}
+
+.newsletter-content input {
+  width: 387px;
+  height: 34px;
+  margin-left: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 6px 0px 0px 6px;
+  border: none;
+  outline: none;
+}
+
+.newsletter-content button {
+  height: 34px;
+  padding: 0 15px;
+  background: #418ef3;
+  color: #ffffff;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  outline: none;
+}
+
+/* Footer Section Styles */
+.footer-wrapper {
+  width: 100%;
+  background: #418ef3;
+  padding: 20px 0;
+}
+
+.footer-content {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
 }

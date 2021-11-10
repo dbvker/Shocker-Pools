@@ -1,5 +1,6 @@
 // React
 import React from "react";
+import { Link } from "react-router-dom";
 
 //Import CSS
 import "./WelcomeCard.css";
@@ -16,12 +17,14 @@ const WelcomeCard = () => {
           summer without having to worry about your pool once.
         </h3>
         <button>Get your first cleaning free</button>
-        <span>Our Services</span>
+        <span>
+          <Link to="/services/">Our Services</Link>
+        </span>
       </div>
       <div className="welcome-container-right">
         <div className="circle3"></div>
         <div className="circle4"></div>
-        <div className='welcome-container-right-image'></div>
+        <div className="welcome-container-right-image"></div>
       </div>
     </section>
   );
