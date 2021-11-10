@@ -1,19 +1,111 @@
-.welcome_wrapper {
-  width: 62%;
-  float: right;
+.welcome-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.welcome-container-left {
+  width: 43%;
+  padding-right: 7%;
+}
+/* Circle Design Styles */
+.circle1 {
+  width: 244px;
+  height: 244px;
+  background: #3eb9ff;
+  opacity: 0.5;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: -58.5px;
+  margin-top: -46px;
+  z-index: 1;
+}
+
+.circle2 {
+  width: 90px;
+  height: 90px;
+  background: #ffffff;
+  border: 10px solid rgba(65, 142, 243, 0.4);
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 209px;
+  margin-top: -46px;
+  z-index: 1;
+}
+
+.circle3 {
+  width: 212px;
+  height: 212px;
+  border-radius: 100%;
+  background: #418ef3;
+  border: 10px solid rgba(65, 142, 243, 0.4);
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.circle4 {
+  width: 247px;
+  height: 247px;
+  border-radius: 100%;
+  background: rgba(65, 142, 243, 0.4);
+  border: 8px solid rgba(65, 142, 243, 0.46);
+  position: absolute;
+  margin-right: -75px;
+  margin-bottom: -90px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.welcome-container-left h1 {
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 500;
+  z-index: 54;
+  position: relative;
+}
+
+.welcome-container-left h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.welcome-container-left button {
+  width: 270px;
+  height: 50px;
+  background-color: #418ef3;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 14px;
+  margin-top: 4%;
+}
+
+.welcome-container-left span {
+  text-decoration: underline;
+  color: #6c6c6c;
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 4%;
+}
+
+.welcome-container-right {
+  width: 57%;
+  position: relative;
+}
+
+.welcome-container-right-image{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  flex-direction: column;
-  font-weight: bold;
   background-image: url("../../assets/pool.jpeg");
   border-radius: 35px;
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.16));
   aspect-ratio: 16 / 9;
-
-  margin-top: 100px;
+  z-index: 10;
+  position: relative;
 }
