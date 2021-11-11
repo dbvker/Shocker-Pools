@@ -21,7 +21,7 @@
 
 .review-item-container {
   width: 22%;
-  min-height: 370px;
+  min-width: 300px;
   height: auto;
   background: #ffffff;
   box-shadow: 0px 1px 11px -1px rgba(0, 0, 0, 0.25);
@@ -37,4 +37,32 @@
 .review-item-stars-icon{
     width: 20px;
     color: #418EF3;
+}
+
+/* Media Query Section */
+
+/* Media once screen size reaches 1550px */
+@media (max-width: 1550px){
+  .review-container {
+    flex-wrap: wrap;
+  }
+  
+  .review-item-container {
+    width: 48%;
+    min-width: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Media once screen size reaches 750px */
+@media (max-width: 750px){
+  .review-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .review-item-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

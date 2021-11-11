@@ -6,6 +6,10 @@
     color: white;
 }
 
+.header-alert-wrapper-close{
+    display: none;
+}
+
 .header-alert-content{
     width: 90%;
     max-width: 1440px;
@@ -22,8 +26,8 @@
 }
 
 .header-alert-content span{
-    height: 30px;
-    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
     background-color: white;
     color: #2980F1;
     display: flex;

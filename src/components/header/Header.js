@@ -1,5 +1,5 @@
 // React
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 //CSS
@@ -12,6 +12,12 @@ import logo from "../../assets/logo.png";
 import HeaderAlert from "./headerAlert/HeaderAlert";
 
 const Header = () => {
+  const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
+
+  // const hamburgerMenuToggle = () => {
+  //   setActive(!isActive);
+  // };
+
   return (
     <>
       <HeaderAlert />
@@ -27,38 +33,62 @@ const Header = () => {
             </Link>
           </div>
           <nav className="header-links-wrapper">
-            <ul className="header-page-links">
+            <div className="header-page-links">
               <Link to="/services/">
-                <li>Services</li>
+                <span>Services</span>
               </Link>
               <Link to="/pools/">
-                <li>Pools</li>
+                <span>Pools</span>
               </Link>
               <Link to="/hot-tubs/">
-                <li>Hot Tubs</li>
+                <span>Hot Tubs</span>
               </Link>
               <Link to="/chemicals/">
-                <li>Chemicals</li>
+                <span>Chemicals</span>
               </Link>
               <Link to="/furniture/">
-                <li>Furniture</li>
+                <span>Furniture</span>
               </Link>
               <Link to="/grills/">
-                <li>Grills</li>
+                <span>Grills</span>
               </Link>
-            </ul>
+            </div>
             <span className="header-spacer"></span>
-            <ul className="header-auth-links">
+            <div className="header-auth-links">
               <Link to="/sign-in/">
-                <li>Log In</li>
+                <span>Log In</span>
               </Link>
               <Link to="/register/">
                 <button className="header-auth-sign-up">Sign Up</button>
               </Link>
-            </ul>
+            </div>
+            <div
+              className="hamburger-menu-icon"
+              onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
+            >
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
           </nav>
         </header>
       </section>
+
+      {/* Popout Nav Menu */}
+      <div
+        className={
+          sidebarIsOpen
+            ? "poput-nav-menu-show popout-nav-menu"
+            : "popout-nav-menu-show"
+        }
+      >
+        <div className="popout-top" onClick={() => setSidebarIsOpen(!sidebarIsOpen)}>
+          <div className="popout-close-button">
+            <div className="popout-bar1"></div>
+            <div className="popout-bar2"></div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
