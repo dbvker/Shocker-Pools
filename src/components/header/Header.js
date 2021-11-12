@@ -34,23 +34,8 @@ const Header = () => {
           </div>
           <nav className="header-links-wrapper">
             <div className="header-page-links">
-              <Link to="/services/">
-                <span>Services</span>
-              </Link>
-              <Link to="/pools/">
-                <span>Pools</span>
-              </Link>
-              <Link to="/hot-tubs/">
-                <span>Hot Tubs</span>
-              </Link>
-              <Link to="/chemicals/">
-                <span>Chemicals</span>
-              </Link>
-              <Link to="/furniture/">
-                <span>Furniture</span>
-              </Link>
-              <Link to="/grills/">
-                <span>Grills</span>
+              <Link to="/">
+                <span>Home</span>
               </Link>
             </div>
             <span className="header-spacer"></span>

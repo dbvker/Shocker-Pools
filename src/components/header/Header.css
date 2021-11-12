@@ -66,7 +66,7 @@ header {
 }
 
 .header-auth-sign-up {
-  width: 100px;
+  width: auto;
   height: 40px;
   background-color: #418ef3;
   color: white;
@@ -77,6 +77,7 @@ header {
   outline: none;
   border-radius: 10px;
   margin-left: 15px;
+  padding: 0 20px;
 }
 
 /* Hamburger Menu Icon Styles */
