@@ -9,7 +9,6 @@ import "./Header.css";
 import logo from "../../assets/logo.png";
 
 //Import Components
-import HeaderAlert from "./headerAlert/HeaderAlert";
 
 const Header = () => {
   const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
@@ -20,7 +19,6 @@ const Header = () => {
 
   return (
     <>
-      <HeaderAlert />
       <section className="header-container">
         <header>
           <div className="header-logo-wrapper">
@@ -68,10 +66,6 @@ const Header = () => {
         }
       >
         <div className="popout-top" onClick={() => setSidebarIsOpen(!sidebarIsOpen)}>
-          <div className="popout-close-button">
-            <div className="popout-bar1"></div>
-            <div className="popout-bar2"></div>
-          </div>
         </div>
       </div>
     </>
