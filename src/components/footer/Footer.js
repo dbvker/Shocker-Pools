@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="newsletter-wrapper">
         <div className="newsletter-content">
           <p>Subscribe to receive our newsletter:</p>
-          <form>
+          <div className="newsletter-content-form">
             <input placeholder="john@shockerpools.com" />
             <button>Subscribe</button>
-          </form>
+          </div>
         </div>
       </div>
       <div className="footer-wrapper">
